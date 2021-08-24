@@ -1,0 +1,132 @@
+@import url("'https://fonts.googleapis.com/css?family=Muli&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .content{
+    z-index:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+  section .content .Formbx{
+    width: 50%;
+}
+section .content .Formbx h2{
+      margin-top: 20px;
+      color:#a02711  ;
+      font-weight: 600;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      margin-bottom:  20px;
+      border-bottom:4px solid rgb(96, 96, 95);
+      display: inline-block;
+      letter-spacing: 1px;
+}
+  section .content .inputb{   
+    margin-bottom: 20px;
+}
+  section .content .inputb span{
+    padding: auto;
+    font-size: 16px;
+      margin-bottom: 5px;
+      display: inline-block;
+      color: #0c0a09;
+      font-weight: 300;
+      font-size: 16px;
+      letter-spacing: 1px;
+}
+  section .content .inputb input{
+      width: 100%;
+      padding: 10px 20px;
+      outline: none;
+      font-weight: 400;
+      border: 1px solid #e43e0c;
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: #6a1a12;
+      background: transparent;
+      border-radius: 30px;
+}
+section .content .inputb input[type="submit"]{
+  background:rgb(15, 9, 9) ;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+section .content .inputb input[type="submit"]:hover{
+  background-color: #6e6467;
+}
+section .content .remember{
+margin-bottom:10px ;
+color: #ee4c7c;
+font-weight: 400;
+font-size: 14px;
+}
+section .content .inputb p{
+  color: #980b96;
+}
+section .content .inputb p a{
+  color: #f76b2b;
+}
+section .content h3{
+  
+  font-size: 25px;
+  color: #a02711;
+  text-align: center;
+  font-weight: 500;
+}
+section .content .Formbx .sci{
+text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+li img{
+  width:100%;
+  height:auto;
+  }
+section .content .Formbx .sci li{
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 7px;
+  cursor: pointer;
+}
+section .content .Formbx .sci li img:hover{
+  transform:scale(0.5);
+  filter: invert(1);
+  transition: 2s;
+}
